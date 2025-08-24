@@ -30,8 +30,8 @@ body::before {
   height: 100%;
   background: repeating-linear-gradient(
     to bottom,
-    rgba(255, 0, 0, 0.053),
-    rgba(255, 0, 0, 0.073) 4px,
+    rgba(255, 0, 0, 0.148),
+    rgba(255, 0, 0, 0.146) 4px,
     transparent 1px,
     transparent 8px
   );

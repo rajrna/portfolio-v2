@@ -1,12 +1,12 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import PortfolioSection from "./components/PortfolioSection";
-import ScrollIndicator from "./components/ScrollIndicator";
+import VersionIndicator from "./components/VersionIndicator";
 import FlickerCanvas from "./components/FlickerCanvas";
 import SocialMedia from "./components/SocialMedia";
 import { Projects } from "./components/Projects";
 import Arts from "./components/Arts";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
     about: <PortfolioSection />,
     projects: <Projects />,
     arts: <Arts />,
-    resume: <Resume />,
+    // resume: <Resume />,
     contact: <Contact />,
   };
 
@@ -34,12 +34,13 @@ export default function App() {
           z-10
           overflow-auto scrollbar-thin
           min-h-[600px]
+          
         "
       >
         {/* Padding inside bordered box */}
-        <div className="p-10 md:p-16 lg:p-24">{pageComponents[page]}</div>
+        <div className="p-10  lg:p-24">{pageComponents[page]}</div>
 
-        <ScrollIndicator />
+        <VersionIndicator />
         <div className="sticky bottom-10 self-end flex flex-col space-y-6 pl-6">
           <SocialMedia />
         </div>

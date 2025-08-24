@@ -1,10 +1,8 @@
-export default function ScrollIndicator() {
+export default function VersionIndicator() {
   return (
     <div className="fixed right-0 bottom-32 flex flex-col items-start text-gray-400 text-xs tracking-widest">
-      <span className="uppercase rotate-90 origin-left">
-        scroll to see more
-      </span>
-      <div className="ml-1.5 mt-4">
+      <span className="uppercase rotate-90 origin-left">v-2.1</span>
+      {/* <div className="ml-1.5 mt-4">
         <svg
           className="w-4 h-4 animate-bounce"
           fill="none"
@@ -19,7 +17,7 @@ export default function ScrollIndicator() {
             d="M19 9l-7 7-7-7"
           />
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -29,6 +29,42 @@ const projects = [
       },
     ],
   },
+  {
+    stack: "Node.js Express",
+    title: "API Boilerplate",
+    desc: "A starter boilerplate for fast-tracking RESTful API development with Node and Express.",
+    links: [
+      {
+        label: "Github",
+        href: "https://github.com/yourname/api-boilerplate",
+        type: "github",
+      },
+    ],
+  },
+  {
+    stack: "Node.js Express",
+    title: "API Boilerplate",
+    desc: "A starter boilerplate for fast-tracking RESTful API development with Node and Express.",
+    links: [
+      {
+        label: "Github",
+        href: "https://github.com/yourname/api-boilerplate",
+        type: "github",
+      },
+    ],
+  },
+  {
+    stack: "Node.js Express",
+    title: "API Boilerplate",
+    desc: "A starter boilerplate for fast-tracking RESTful API development with Node and Express.",
+    links: [
+      {
+        label: "Github",
+        href: "https://github.com/yourname/api-boilerplate",
+        type: "github",
+      },
+    ],
+  },
   // ...add more projects here
 ];
 
