@@ -73,7 +73,7 @@ const buttonColors = {
   live: "border-white text-white hover:bg-white hover:text-black",
 };
 
-export function Projects() {
+export default function Projects() {
   return (
     <section className="w-full max-w-6xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-mono font-bold mb-8 text-left text-amber-50">
