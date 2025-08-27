@@ -60,6 +60,71 @@ export default function PortfolioSection() {
           experimenting with synth sounds.
         </p>
       </div>
+      {/* Work Experience */}
+      <h3 className="text-2xl font-bold text-red-500 mb-4 font-mono">
+        Work Experience
+      </h3>
+      <div className="flex flex-col gap-8 font-mono">
+        <div>
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+            <span className="font-semibold text-lg text-white">
+              Frontend Developer
+            </span>
+            <span className="text-gray-400 text-sm">
+              Acme Corp &ndash; Kathmandu, Nepal
+            </span>
+          </div>
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+            <span className="text-gray-300 text-sm">
+              Jan 2024 &ndash; Jul 2025
+            </span>
+          </div>
+          <ul className="list-disc pl-6 mt-2 text-gray-300 text-base leading-relaxed">
+            <li>
+              Developed and maintained high-performance React applications for
+              internal tools and client dashboards.
+            </li>
+            <li>
+              Optimized UI components, reducing load times by 30% and improving
+              Lighthouse scores.
+            </li>
+            <li>
+              Collaborated closely with UI/UX designers, backend engineers, and
+              QA for rapid agile releases.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+            <span className="font-semibold text-lg text-white">
+              Software Engineering Intern
+            </span>
+            <span className="text-gray-400 text-sm">
+              TechLabs &ndash; Remote
+            </span>
+          </div>
+          <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+            <span className="text-gray-300 text-sm">
+              Jun 2023 &ndash; Dec 2023
+            </span>
+          </div>
+          <ul className="list-disc pl-6 mt-2 text-gray-300 text-base leading-relaxed">
+            <li>
+              Built core features for a real-time game analytics dashboard using
+              TypeScript and React.
+            </li>
+            <li>
+              Wrote unit and integration tests, boosting code coverage from 60%
+              to 88%.
+            </li>
+            <li>
+              Assisted in debugging production issues and writing clear
+              documentation for new modules.
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 }
