@@ -4,7 +4,7 @@ export default function SocialMedia() {
   return (
     <div className="absolute left-10 bottom-10 flex flex-col space-y-6 z-30">
       <a
-        href="https://github.com/yourusername"
+        href="https://github.com/rajrna"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-red-500 transition text-3xl"
