@@ -1,17 +1,21 @@
+import TypeWriter from "./TypeWriter";
 export default function PortfolioSection() {
   return (
-    <section className="flex flex-col justify-center h-full pl-64 font-mono text-amber-50">
+    <section className="flex flex-col justify-center h-full pl-64 font-mono text-white">
       <div className="mt-15">
         <div className="mb-4 text-red-500 text-left text-2xl ">Hey, I am</div>
-        <h1 className="text-5xl font-bold mb-4 text-left  text-amber-50">
+        <h1 className="text-5xl font-bold mb-4 text-left  text-white">
           Raj Rana<span className="text-red-500">.</span>
         </h1>
-        <p className="mb-6 text-left text-2xl  text-amber-50">
+        <p className="mb-6 text-left text-2xl  text-white">
           I am a software engineer specializing in
           <br />
           creating web and game development.
           <br />
-          Currently I am <span className="text-red-500">unemployed.</span>
+          Currently I am{" "}
+          <span className="text-red-500">
+            <TypeWriter />.
+          </span>
         </p>
         <p className="mb-6 text-left text-lg leading-relaxed">
           I’m passionate about continuous learning and rapidly adapting to new

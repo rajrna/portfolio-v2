@@ -13,9 +13,9 @@ const projects = [
   },
   {
     stack: "Unity C#",
-    title: "Tower Defense Game",
-    desc: "A 2D tower defense game with unique enemies and upgrades, built in Unity.",
-    links: [{ label: "Demo", href: "https://yourgame.demo", type: "live" }],
+    title: "The Mercenary",
+    desc: "A story focused rpg built in Unity. In early development stages.",
+    links: [{ label: "Demo", href: "", type: "live" }],
   },
   {
     stack: "HTML CSS JavaScript PHP",
@@ -76,7 +76,7 @@ const buttonColors = {
 export default function Projects() {
   return (
     <section className="w-full max-w-6xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-mono font-bold mb-8 text-left text-amber-50">
+      <h2 className="text-3xl md:text-4xl font-mono font-bold mb-8 text-left text-white">
         <span className="text-red-500">#</span>projects
       </h2>
       <div className="grid gap-6 md:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">

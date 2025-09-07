@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Arts from "./components/Arts";
 import Contact from "./components/Contact";
 import Loading from "./components/Loading";
+import TypeWriter from "./components/TypeWriter";
 
 const NAVBAR_HEIGHT = "3.5rem";
 const pageVariants = {
