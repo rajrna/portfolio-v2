@@ -10,6 +10,7 @@ import Arts from "./components/Arts";
 import Contact from "./components/Contact";
 import Loading from "./components/Loading";
 import TypeWriter from "./components/TypeWriter";
+import Clock from "./components/Clock";
 
 const NAVBAR_HEIGHT = "3.5rem";
 const pageVariants = {
@@ -50,6 +51,7 @@ export default function App() {
     <div className="min-h-screen bg-black relative overflow-hidden">
       <Navbar active={page} onNav={setPage} />
       <div className="fixed left-6 top-6 right-6 bottom-6 border border-white bg-black/95 z-10 overflow-auto scrollbar-thin min-h-[600px] flex flex-col ">
+        <Clock />
         <div
           className="pointer-events-none absolute left-0 right-0 top-0 h-16 z-20"
           style={{
