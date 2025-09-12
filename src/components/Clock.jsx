@@ -8,12 +8,16 @@ export default function Clock() {
     return () => clearInterval(timer);
   }, []);
 
-  // Format to HH:MM:ss (24h or 12h style)
-  const time = now.toLocaleTimeString([], {
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-  });
+  // Automatically respects the user's locale and hour format
+  const time = now.toLocaleTimeString(
+    undefined, // Let browser pick user's locale
+    {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: undefined, // This makes it follow system/browser/user settings!
+    }
+  );
 
   return (
     <div
