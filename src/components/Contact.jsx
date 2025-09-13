@@ -2,14 +2,16 @@ export default function Contact() {
   // You can replace the '#' in href with your actual PDF path, e.g. "/RajRana_Resume.pdf"
   return (
     <section className="max-w-xl mx-auto font-mono">
-      <h2 className="text-3xl font-bold mb-6 text-red-500">Contact & Resume</h2>
+      <h2 className="text-3xl font-bold mb-6 text-off-red-500">
+        Contact & Resume
+      </h2>
 
       {/* Download Resume Button */}
       <div className="mb-8">
         <a
           href="/assets/Raj_Rana.pdf"
           download
-          className="px-6 py-2 border border-red-500 text-red-500 rounded hover:bg-red-500 hover:text-black font-mono transition"
+          className="px-6 py-2 border border-off-red-400 text-off-red-400 rounded hover:bg-off-red-500 hover:text-black font-mono transition"
         >
           Download Resume (PDF)
         </a>
@@ -21,7 +23,7 @@ export default function Contact() {
         action="https://formspree.io/f/yourformid" // or use your backend/email API
         method="POST"
       >
-        <label className="flex flex-col text-sm">
+        <label className="flex flex-col text-sm text-platinum-900">
           Name
           <input
             type="text"
@@ -30,7 +32,7 @@ export default function Contact() {
             required
           />
         </label>
-        <label className="flex flex-col text-sm">
+        <label className="flex flex-col text-sm text-platinum-900">
           Email
           <input
             type="email"
@@ -39,7 +41,7 @@ export default function Contact() {
             required
           />
         </label>
-        <label className="flex flex-col text-sm">
+        <label className="flex flex-col text-sm text-platinum-900">
           Message
           <textarea
             name="message"
@@ -60,7 +62,7 @@ export default function Contact() {
           href="mailto:youremail@example.com"
           className="text-red-500 underline"
         >
-          youremail@example.com
+          rnaraj01@gmail.com
         </a>
       </p>
     </section>

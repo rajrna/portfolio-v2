@@ -65,11 +65,23 @@ const projects = [
       },
     ],
   },
+  {
+    stack: "Python Streamlit",
+    title: "KuraKaniAI",
+    desc: "An AI Chatbot for ecommerce website",
+    links: [
+      {
+        label: "Github",
+        href: "https://github.com/yourname/api-boilerplate",
+        type: "github",
+      },
+    ],
+  },
   // ...add more projects here
 ];
 
 const buttonColors = {
-  github: "border-red-500 text-red-500 hover:bg-red-500 hover:text-black",
+  github: "border-red-500 text-red-500 hover:bg-off-red-500 hover:text-black",
   live: "border-white text-white hover:bg-white hover:text-black",
 };
 
@@ -77,13 +89,13 @@ export default function Projects() {
   return (
     <section className="w-full max-w-6xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-mono font-bold mb-8 text-left text-white">
-        <span className="text-red-500">#</span>projects
+        <span className="text-off-red">#</span>projects
       </h2>
       <div className="grid gap-6 md:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((proj, idx) => (
           <div
             key={proj.title}
-            className="border border-white/50 rounded-md px-6 py-5 flex flex-col min-h-[220px] bg-black/60 hover:border-red-500 transition duration-200"
+            className="border border-white/50 rounded-md px-6 py-5 flex flex-col min-h-[220px] bg-black/60 hover:border-off-red-500 transition duration-200"
           >
             <div className="text-xs tracking-widest text-gray-400 mb-1 font-mono">
               {proj.stack}

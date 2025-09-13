@@ -39,7 +39,7 @@ export default function Typewriter({ className }) {
   }, [text, isDeleting, wordIndex, speed]);
 
   return (
-    <span className={`text-red-500 ${className}`}>
+    <span className={`text-off-red ${className}`}>
       {text}
       <span className="blinking-cursor">|</span>
       <style>{`

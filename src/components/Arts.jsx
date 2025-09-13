@@ -11,7 +11,7 @@ export default function Arts() {
   return (
     <section className="w-full max-w-6xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-mono font-bold mb-8 text-left text-white">
-        <span className="text-red-500">#</span>artworks
+        <span className="text-off-red-500">#</span>artworks
       </h2>
       <div className="grid gap-6 md:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {arts.map((art) => (

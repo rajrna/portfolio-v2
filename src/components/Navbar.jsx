@@ -20,8 +20,8 @@ export default function Navbar({ active, onNav }) {
              transition-colors duration-200
             ${
               active === link.id
-                ? "text-red-500 border-red-500"
-                : "text-gray-200 hover:text-red-500 hover:border-red-500"
+                ? "text-off-red-500 border-off-red-500"
+                : "text-white hover:text-off-red-500 hover:border-off-red-500"
             }
           `}
         >

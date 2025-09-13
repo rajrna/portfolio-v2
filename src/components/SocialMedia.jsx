@@ -7,7 +7,7 @@ export default function SocialMedia() {
         href="https://github.com/rajrna"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-red-500 transition text-3xl"
+        className="text-white hover:text-off-red-500 transition text-3xl"
         aria-label="GitHub"
       >
         <FaGithub />
@@ -16,7 +16,7 @@ export default function SocialMedia() {
         href="https://linkedin.com/in/yourprofile"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-red-500 transition text-3xl"
+        className="text-white hover:text-off-red-500 transition text-3xl"
         aria-label="LinkedIn"
       >
         <FaLinkedin />
